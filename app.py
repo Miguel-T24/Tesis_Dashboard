@@ -2,7 +2,7 @@ from dash import Dash, html, dcc, Input, Output
 import plotly.express as px
 
 external_scripts = ["https://cdn.tailwindcss.com"]
-app = Dash(__name__, external_scripts=external_scripts)
+app = Dash(__name__, external_scripts=external_scripts,title="Dashboard CIHH – Manglar Juan Díaz")
 
 df = px.data.gapminder().query("country == 'Panama' and year >= 1980")
 fig = px.line(df, x="year", y="gdpPercap", markers=True)
@@ -42,7 +42,7 @@ app.layout = html.Div(
                         ]
                     ),
                 ),
-                
+
                 html.Nav(
                     className="space-y-2 mt-2",
                     children=[
