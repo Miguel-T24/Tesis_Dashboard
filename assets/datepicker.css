@@ -1,0 +1,51 @@
+/* Contenedor principal del datepicker */
+.cihh-datepicker .DateRangePickerInput {
+    background-color: #020617 !important;
+    /* slate-950 */
+    border-radius: 0.75rem !important;
+    /* rounded-xl */
+    border: 1px solid #1f2937 !important;
+    /* slate-800 */
+    padding: 0.25rem 0.75rem !important;
+}
+
+/* Cada caja de fecha */
+.cihh-datepicker .DateInput {
+    background-color: transparent !important;
+}
+
+/* Texto interno de los inputs */
+.cihh-datepicker .DateInput_input {
+    background-color: transparent !important;
+    color: #e5e7eb !important;
+    /* text-slate-200 */
+    font-size: 0.875rem !important;
+    border: none !important;
+    /* sin borde blanco */
+    padding: 0.35rem 0.5rem !important;
+}
+
+/* Cuando el input está enfocado */
+.cihh-datepicker .DateInput_input__focused {
+    outline: none !important;
+    border-bottom: 1px solid #818cf8 !important;
+    /* indigo-400 */
+}
+
+/* Flecha entre fechas */
+.cihh-datepicker .DateRangePickerInput_arrow,
+.cihh-datepicker .DateRangePickerInput_arrow_svg {
+    color: #e5e7eb !important;
+    fill: #e5e7eb !important;
+}
+
+/* Quitar borde default del componente */
+.cihh-datepicker .DateRangePickerInput__withBorder {
+    border: none !important;
+    background-color: transparent !important;
+}
+
+/* Por si Dash mete fondo blanco en el wrapper */
+.cihh-datepicker .DateRangePicker {
+    background-color: transparent !important;
+}
